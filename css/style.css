@@ -1,0 +1,20 @@
+.botao1{
+    display: flex;
+    border-color: black;
+    border-style: solid;
+    border-top: .1rem;
+    border-bottom: .1rem;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
