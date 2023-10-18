@@ -117,9 +117,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border-color: black;
-    border-style: solid;
-    border-width: .1rem;
+    border: .1rem solid black;
     border-top: .1rem;
     border-right: .1rem;
     border-left: .1rem;
@@ -129,6 +127,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    border: .1rem solid black;
+    border-bottom: .1rem;
+    border-right: .1rem;
+    border-left: .1rem;
 }
 
 .headerS3{
@@ -155,4 +157,10 @@ h1{
     height: 4rem;
     display: flex;
     justify-self: flex-end;
+}
+
+.imgI{
+    display: flex;
+    width: 4.5rem;
+    height: 4.5rem;
 }
