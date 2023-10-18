@@ -26,8 +26,35 @@
     padding: 1.2rem;
 }
 
-.texto4{
-    
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 16rem;
+}
+
+.aceitar{
+    font-size: 3.5rem;
+    padding: 2rem 4rem;
+    background-color: rgb(14, 233, 17);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin: 3rem;
+}
+
+.recusar{
+    font-size: 3.5rem;
+    font-size: 3.5rem;
+    padding: 2rem 4rem;
+    background-color: rgb(231, 14, 14);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin: 3rem;
 }
 
 header{
