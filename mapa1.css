@@ -37,3 +37,25 @@ a {
 a:hover {
     background-color: #555;
 }
+
+.icon-link {
+    display: block;
+    position: relative;
+    width: 30px; /* Largura do ícone */
+    height: 30px; /* Altura do ícone */
+    top: 0; /* Posição vertical em relação à área clicável */
+    left: 0; /* Posição horizontal em relação à área clicável */
+    z-index: 1; /* Certifica-se de que o ícone está acima da imagem de fundo */
+    background-image: url('img/iconemapa1.png'); /* URL do ícone */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-link::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/iconemapa1.png'); /* URL do ícone */
+    background-size: cover;
+}
