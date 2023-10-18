@@ -1,4 +1,19 @@
+
 .botao1{
+    display: flex;
+    border-color: black;
+    border-style: solid;
+    border-width: .1rem;
+    border-left: .1rem;
+    border-right: .1rem;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    height: 8rem;
+}
+
+.botao2{
     display: flex;
     border-color: black;
     border-style: solid;
@@ -137,4 +152,9 @@ h1{
     height: 4rem;
     display: flex;
     justify-self: flex-end;
+}
+
+.estrela_av{
+    display: flex;
+    flex-direction: row;
 }
