@@ -113,6 +113,24 @@
     padding: 2rem;
 }
 
+.headerI{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-color: black;
+    border-style: solid;
+    border-width: .1rem;
+    border-top: .1rem;
+    border-right: .1rem;
+    border-left: .1rem;
+}
+
+.footerI{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .headerS3{
     font-size: 4rem;
     display: flex;
