@@ -81,3 +81,38 @@ h1{
     display: flex;
     justify-self: flex-end;
 }
+
+.navbar-cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-cabecalho li{
+    margin: 1rem 1.5rem;
+}
+
+.nome-app{
+    text-align: center;
+    margin: 1rem;
+}
+
+.img-nav-cab{
+    width: 3rem;
+    height: auto;
+    margin-right: 9rem;
+}
+
+.icon-link {
+    display: block;
+    position: relative;
+    width: 30px; /* Largura do ícone */
+    height: 30px; /* Altura do ícone */
+    top: 0; /* Posição vertical em relação à área clicável */
+    left: 0; /* Posição horizontal em relação à área clicável */
+    z-index: 1; /* Certifica-se de que o ícone está acima da imagem de fundo */
+    background-image: url(img\iconmapa1.png); /* URL do ícone */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
