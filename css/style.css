@@ -40,6 +40,10 @@
     align-items: center;
 }
 
+.texto5{
+    font-size: 2.5rem;
+}
+
 footer{
     display: flex;
     flex-direction: column;
@@ -69,6 +73,20 @@ footer{
     border-radius: 2rem;
     cursor: pointer;
     margin: 3rem;
+}
+
+.ok{
+    display: flex;
+    justify-content: center;
+    font-size: 3.5rem;
+    font-size: 3.5rem;
+    padding: 2rem 4rem;
+    background-color: rgb(64, 144, 229);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin: 12rem;
 }
 
 header{
