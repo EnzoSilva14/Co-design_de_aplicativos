@@ -12,6 +12,13 @@
     height: 8rem;
 }
 
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .texto1{
     font-size: 3rem;
 }
@@ -26,7 +33,18 @@
     padding: 1.2rem;
 }
 
-footer{
+.texto4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto5{
+    font-size: 2.5rem;
+}
+
+.footerS{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -57,11 +75,68 @@ footer{
     margin: 3rem;
 }
 
-header{
+.ok{
+    display: flex;
+    justify-content: center;
+    font-size: 3.5rem;
+    font-size: 3.5rem;
+    padding: 2rem 4rem;
+    background-color: rgb(64, 144, 229);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin: 12rem;
+}
+
+.voltar{
+    position: fixed;
+    bottom: 94rem;
+    right: 52rem;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+}
+
+.branco{
+    color: white;
+}
+
+.headerS{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2rem;
+}
+
+.headerI{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-color: black;
+    border-style: solid;
+    border-width: .1rem;
+    border-top: .1rem;
+    border-right: .1rem;
+    border-left: .1rem;
+}
+
+.footerI{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.headerS3{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
 }
 
 h1{
