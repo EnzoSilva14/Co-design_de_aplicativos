@@ -2,14 +2,37 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\reset.css">
+    <link rel="stylesheet" href="css\style.css">
     <title>Mapa</title>
     <link rel="stylesheet" href="mapa1.css">
 </head>
 <body>
-    <h1>Mapa</h1>
+    <header>
+        <nav>
+            <ul class="navbar-cabecalho">
+                <li>
+                    <a href="#">
+                        <img class="img-nav-cab" src="img\Voltar.jpg" alt="Voltar">
+                    </a>
+                </li>
+                <li>
+                    <h1 class="nome-app">MAPA</h1>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
         <figure>
-            <img src="img/mapa.jpg">
+            <img src="img/mapa.jpg" usemap = "#appMapa">
+            <map name="appMapa">
+                <area shape="rect" coords="0,0,100,50" href="mapa2.html" alt="Link 1" class="icon-link">
+                <area shape="rect" coords="100,0,200,50" href="link2.html" alt="Link 2">
+                <area shape="rect" coords="0,50,100,100" href="link3.html" alt="Link 3">
+            </map>
         </figure>
         <a href="mapa2.html">Serviço 1</a>
         <a href="">Serviço 2</a>
