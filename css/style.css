@@ -1,0 +1,105 @@
+.botao1{
+    display: flex;
+    border-color: black;
+    border-style: solid;
+    border-width: .1rem;
+    border-left: .1rem;
+    border-right: .1rem;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    height: 8rem;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center  ;
+}
+
+.texto1{
+    font-size: 3rem;
+}
+
+.texto2{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.8rem;
+}
+
+.texto3{
+    padding: 1.2rem;
+}
+
+.texto4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 16rem;
+}
+
+.aceitar{
+    font-size: 3.5rem;
+    padding: 2rem 4rem;
+    background-color: rgb(14, 233, 17);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin: 3rem;
+}
+
+.recusar{
+    font-size: 3.5rem;
+    font-size: 3.5rem;
+    padding: 2rem 4rem;
+    background-color: rgb(231, 14, 14);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin: 3rem;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.headerS3{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.avatar{
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    justify-self: flex-start;
+}
+
+.estrela{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-self: flex-end;
+}
