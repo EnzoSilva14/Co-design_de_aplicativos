@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center  ;
+    text-align: center;
 }
 
 .texto1{
@@ -87,6 +87,23 @@ footer{
     border-radius: 2rem;
     cursor: pointer;
     margin: 12rem;
+}
+
+.voltar{
+    position: fixed;
+    bottom: 94rem;
+    right: 52rem;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+}
+
+.branco{
+    color: white;
 }
 
 header{
