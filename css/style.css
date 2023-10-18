@@ -128,6 +128,24 @@
     padding: 2rem;
 }
 
+.headerI{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-color: black;
+    border-style: solid;
+    border-width: .1rem;
+    border-top: .1rem;
+    border-right: .1rem;
+    border-left: .1rem;
+}
+
+.footerI{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .headerS3{
     font-size: 4rem;
     display: flex;
@@ -157,4 +175,39 @@ h1{
 .estrela_av{
     display: flex;
     flex-direction: row;
+}
+
+.navbar-cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-cabecalho li{
+    margin: 1rem 1.5rem;
+}
+
+.nome-app{
+    text-align: center;
+    margin: 1rem;
+}
+
+.img-nav-cab{
+    width: 3rem;
+    height: auto;
+    margin-right: 9rem;
+}
+
+.icon-link {
+    display: block;
+    position: relative;
+    width: 30px; /* Largura do ícone */
+    height: 30px; /* Altura do ícone */
+    top: 0; /* Posição vertical em relação à área clicável */
+    left: 0; /* Posição horizontal em relação à área clicável */
+    z-index: 1; /* Certifica-se de que o ícone está acima da imagem de fundo */
+    background-image: url(img\iconmapa1.png); /* URL do ícone */
+    background-size: contain;
+    background-repeat: no-repeat;
 }
