@@ -1,90 +1,53 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+.voltar{
+    position: absolute;
+    bottom: 99.5rem;
+    right: 53rem;
+    width: 6rem;
+    height: 6rem;
 }
 
-main {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1.8rem;
+    font-size: 5rem;
+    border: solid black .5rem;
+    border-width: 0rem 0rem .5rem 0rem;
 }
 
-h1 {
-    text-align: center;
-    color: #333;
-}
-
-img {
+.mapa{
     display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-p {
-    margin-top: 20px;
-    font-size: 16px;
-    color: #555;
-}
-
-li {
-    list-style-type: none;
-    margin-bottom: 10px;
-}
-
-button {
-    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
-    padding: 10px;
-    background-color: #4caf50;
+}
+
+footer{
+    padding: 5rem;
+    border: solid black 1rem;
+    border-width: 1rem 0rem 0rem 0rem;
+    font-size: 1.815rem;
+}
+
+.pino1{
+    position: absolute;
+    bottom: 70rem;
+    right: 24rem;
+    width: 12rem;
+    height: 12rem;
+}
+
+.aceitar{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-size: 3rem;
+    padding: 1rem 1rem;
+    background-color: rgb(11, 214, 72);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 2rem;
     cursor: pointer;
-    font-size: 16px;
-    margin-top: 20px;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-.icon-link {
-    display: block;
-    position: absolute;
-    width: 5rem; 
-    height: 5rem; 
-    top: 0; 
-    left: 0; 
-    z-index: 1; 
-    background-image: url('img/iconemapa1.png'); 
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.icon-link:nth-child(1) {
-    top: 4.90rem;
-    left: 31rem;
-    background-image: url('img/iconemapa1.png'); 
-
-}
-
-.icon-link:nth-child(2) {
-    top: 15rem;
-    left: 48rem;
-    background-image: url('img/iconemapa1.png'); 
-}
-
-.icon-link:nth-child(3) {
-    top: 25rem;
-    left: 40rem;
-    background-image: url('img/iconemapa1.png'); 
+    margin: 4rem;
 }
