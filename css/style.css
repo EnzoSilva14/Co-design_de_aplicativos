@@ -1,19 +1,4 @@
-
 .botao1{
-    display: flex;
-    border-color: black;
-    border-style: solid;
-    border-width: .1rem;
-    border-left: .1rem;
-    border-right: .1rem;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem;
-    height: 8rem;
-}
-
-.botao2{
     display: flex;
     border-color: black;
     border-style: solid;
@@ -106,7 +91,7 @@
 
 .voltar{
     position: fixed;
-    bottom: 100.5rem;
+    bottom: 94rem;
     right: 52rem;
     font-size: 2rem;
     background-color: black;
@@ -132,7 +117,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: .1rem solid black;
+    border-color: black;
+    border-style: solid;
+    border-width: .1rem;
     border-top: .1rem;
     border-right: .1rem;
     border-left: .1rem;
@@ -142,10 +129,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    border: .1rem solid black;
-    border-bottom: .1rem;
-    border-right: .1rem;
-    border-left: .1rem;
 }
 
 .headerS3{
@@ -172,51 +155,4 @@ h1{
     height: 4rem;
     display: flex;
     justify-self: flex-end;
-}
-
-.estrela_av{
-    display: flex;
-    flex-direction: row;
-}
-
-.navbar-cabecalho{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar-cabecalho li{
-    margin: 1rem 1.5rem;
-}
-
-.nome-app{
-    text-align: center;
-    margin: 1rem;
-}
-
-.img-nav-cab{
-    width: 3rem;
-    height: auto;
-    margin-right: 9rem;
-}
-
-.icon-link {
-    display: block;
-    position: relative;
-    width: 30px; /* Largura do ícone */
-    height: 30px; /* Altura do ícone */
-    top: 0; /* Posição vertical em relação à área clicável */
-    left: 0; /* Posição horizontal em relação à área clicável */
-    z-index: 1; /* Certifica-se de que o ícone está acima da imagem de fundo */
-    background-image: url('img\mapa1.png'); /* URL do ícone */
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-
-.imgI{
-    display: flex;
-    width: 4.5rem;
-    height: 4.5rem;
 }
