@@ -105,15 +105,10 @@
 
 .voltar{
     position: fixed;
-    bottom: 94rem;
-    right: 52rem;
-    font-size: 2rem;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 2rem;
-    cursor: pointer;
-    padding: 1rem 1.5rem;
+    bottom: 99.5rem;
+    right: 53rem;
+    width: 6rem;
+    height: 6rem;
 }
 
 .branco{
