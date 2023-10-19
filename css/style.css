@@ -104,7 +104,7 @@
 }
 
 .voltar{
-    position: fixed;
+    position: absolute;
     bottom: 99.5rem;
     right: 53rem;
     width: 6rem;

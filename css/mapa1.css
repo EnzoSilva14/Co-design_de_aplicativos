@@ -1,64 +1,54 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1.8rem;
+    font-size: 5rem;
+    border: solid black .5rem;
+    border-width: 0rem 0rem .5rem 0rem;
 }
 
-h1 {
-    text-align: center;
-    padding: 10px 0;
-    margin: 0;
-    font-size: 4rem;
-}
-
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-figure {
-    text-align: center;
-}
-
-a {
+.mapa{
     display: block;
-    margin: 10px 0;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
-.icon-link {
-    display: block;
+p{
+    padding: 5rem;
+    border: solid black 1rem;
+    border-width: 1rem 0rem 0rem 0rem;
+}
+
+.voltar{
     position: absolute;
-    width: 5rem; 
-    height: 5rem; 
-    top: 0; 
-    left: 0; 
-    z-index: 1; 
-    background-image: url('img/iconemapa1.png'); 
-    background-size: contain;
-    background-repeat: no-repeat;
+    bottom: 99.5rem;
+    right: 53rem;
+    width: 6rem;
+    height: 6rem;
 }
 
-.icon-link:nth-child(1) {
-    top: 5rem;
-    left: 25rem;
-    background-image: url('img/iconemapa1.png'); 
-
+.pino1{
+    position: absolute;
+    bottom: 70rem;
+    right: 24rem;
+    width: 12rem;
+    height: 12rem;
 }
 
-.icon-link:nth-child(2) {
-    top: 30rem;
-    left: 50rem;
-    background-image: url('img/iconemapa1.png'); 
+.pino2{
+    position: absolute;
+    bottom: 52rem;
+    right: 35rem;
+    width: 12rem;
+    height: 12rem;
 }
 
-.icon-link:nth-child(3) {
-    top: 50rem;
-    left: 23rem;
-    background-image: url('img/iconemapa1.png'); 
+.pino3{
+    position: absolute;
+    bottom: 40rem;
+    right: 12rem;
+    width: 12rem;
+    height: 12rem;
 }
