@@ -56,3 +56,35 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+.icon-link {
+    display: block;
+    position: absolute;
+    width: 5rem; 
+    height: 5rem; 
+    top: 0; 
+    left: 0; 
+    z-index: 1; 
+    background-image: url('img/iconemapa1.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-link:nth-child(1) {
+    top: 4.90rem;
+    left: 31rem;
+    background-image: url('img/iconemapa1.png'); 
+
+}
+
+.icon-link:nth-child(2) {
+    top: 15rem;
+    left: 48rem;
+    background-image: url('img/iconemapa1.png'); 
+}
+
+.icon-link:nth-child(3) {
+    top: 25rem;
+    left: 40rem;
+    background-image: url('img/iconemapa1.png'); 
+}

@@ -31,22 +31,6 @@ a {
     border-radius: 5px;
 }
 
-
-.nome-app{
-    font-size: 24px;
-    color: black;
-    justify-content: center;
-    margin: 0rem;
-    display: flex;
-}
-
-.navbar-cabecalho{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:safe;
-}
-
 .icon-link {
     display: block;
     position: absolute;
@@ -61,7 +45,7 @@ a {
 }
 
 .icon-link:nth-child(1) {
-    top: 23rem;
+    top: 5rem;
     left: 25rem;
     background-image: url('img/iconemapa1.png'); 
 
