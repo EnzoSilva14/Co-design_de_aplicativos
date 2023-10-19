@@ -1,17 +1,4 @@
 
-html {
-    height: 100%;
-    width: 100%;
-}
-
-body{
-    height: 100%;
-}
-
-main{
-    height: 100%;
-    width: 100%;
-}
 .botao1{
     display: flex;
     border-color: black;
@@ -33,7 +20,7 @@ main{
     border-width: .1rem;
     border-left: .1rem;
     border-right: .1rem;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     padding: 1rem;
@@ -223,9 +210,4 @@ h1{
     background-image: url(img\iconmapa1.png); /* URL do ícone */
     background-size: contain;
     background-repeat: no-repeat;
-}
-
-.botao3{
-    display: flex;
-    flex-direction: row;
 }
