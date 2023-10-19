@@ -1,4 +1,3 @@
-
 .botao1{
     display: flex;
     border-color: black;
@@ -144,6 +143,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    border: solid black .1rem;
+    padding: .3rem;
+}
+
+.imgI{
+    display: flex;
+    height: 4rem;
+    width: 4rem;
 }
 
 .headerS3{
