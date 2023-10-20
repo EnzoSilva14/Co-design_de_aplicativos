@@ -12,3 +12,23 @@ header{
     height: 8rem;
     display: flex;
 }
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-size: 3rem;
+    padding: .2rem .5rem;
+    background-color: rgb(177, 177, 177);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin: 4rem;
+    width: 25rem;
+}
+
+.linha1{
+    display: flex;
+}
