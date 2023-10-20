@@ -14,6 +14,7 @@ header{
     font-size: 5rem;
     border: solid black .5rem;
     border-width: 0rem 0rem .5rem 0rem;
+    background-color: #FAF67D;
 }
 
 .mapa{
@@ -28,6 +29,7 @@ footer{
     border: solid black 1rem;
     border-width: 1rem 0rem 0rem 0rem;
     font-size: 1.815rem;
+    background-color: #FAF67D;
 }
 
 .pino1{

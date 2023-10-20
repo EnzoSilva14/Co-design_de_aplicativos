@@ -6,6 +6,7 @@ header{
     border: solid black .15rem;
     font-size: 4rem;
     padding: 2rem;
+    background-color: aqua;
 }
 
 .lupa{
@@ -14,12 +15,14 @@ header{
     right: 1rem;
     width: 8rem;
     height: 8rem;
+    background-color: aqua;
 }
 
 .img1{
     width: 8rem;
     height: 8rem;
     display: flex;
+    
 }
 
 .botao{
@@ -38,6 +41,7 @@ header{
     width: 25rem;
     height: 8rem;
     font-size: 2.5rem;
+    
 }
 
 .botao2{
@@ -56,6 +60,7 @@ header{
     width: 10rem;
     height: 8rem;
     font-size: 2.5rem;
+    
 }
 
 .botao3{
@@ -75,6 +80,7 @@ header{
     width: 45rem;
     height: 8rem;
     font-size: 2.5rem;
+    
 }
 
 .botao4{
@@ -99,6 +105,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    background-color: aqua;
 }
 
 .linha2{
@@ -106,6 +113,7 @@ header{
     flex-direction: row;
     align-items: center;
     font-size: 3rem;
+    
 }
 
 .voltar{
@@ -114,6 +122,7 @@ header{
     right: 53rem;
     width: 6rem;
     height: 6rem;
+    
 }
 
 .imgcentro{
@@ -123,6 +132,7 @@ header{
     width: 80%;
     border: solid rgb(193, 193, 193) .5rem;
     margin-bottom: 3rem;
+    
 }
 
 footer{
@@ -130,10 +140,12 @@ footer{
     flex-direction: row;
     justify-content: center;
     border: solid black .15rem;
+    background-color: rgb(0, 255, 255);
 }
 
 .texto1{
     font-size: 4rem;
+    
 }
 
 .texto2{
