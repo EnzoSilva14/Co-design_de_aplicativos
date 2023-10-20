@@ -161,3 +161,7 @@ main{
     height: 20rem;
     width: 20rem;
 }
+
+.textolimpo{
+    text-decoration: none;
+}
