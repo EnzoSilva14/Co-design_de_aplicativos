@@ -173,3 +173,18 @@ main{
 .margem4{
     margin-top: 62rem;
 }
+
+a{
+    font-family: 'Vollkorn', serif;
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    font-family: 'Vollkorn', serif;
+}
+
+h1{
+    font-size: 6rem;
+    font-family: 'Tilt Neon', sans-serif;
+}

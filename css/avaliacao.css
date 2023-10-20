@@ -13,6 +13,7 @@ body{
 p{
     text-decoration: none;
     color: black;
+    font-family: 'Vollkorn', serif;
 }
 
 a{
@@ -137,4 +138,9 @@ a{
 .mapa{
     width: 24rem;
     height: 30rem;
+}
+
+h1{
+    font-size: 6rem;
+    font-family: 'Tilt Neon', sans-serif;
 }
