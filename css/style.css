@@ -41,10 +41,13 @@
 }
 
 .texto2{
+    font-size: 3rem;
+    background-color: #FAF67D;
     display: flex;
     flex-direction: column;
-    font-size: 2.8rem;
-    background-color: #FAF67D;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 50rem;
 }
 
 .texto3{
@@ -68,10 +71,10 @@
 .footerS{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
-    margin: 16rem;
     background-color: #FAF67D;
+    height: 50rem;
 }
 
 .aceitar{
