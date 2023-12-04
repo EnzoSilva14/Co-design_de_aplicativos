@@ -25,6 +25,10 @@ header{
 }
 
 footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     padding: 5rem;
     border: solid black 1rem;
     border-width: 1rem 0rem 0rem 0rem;
@@ -35,9 +39,9 @@ footer{
 .pino1{
     position: absolute;
     bottom: 70rem;
-    right: 24rem;
-    width: 12rem;
-    height: 12rem;
+    right: 26rem;
+    width: 4rem;
+    height: 6rem;
 }
 
 .aceitar{
