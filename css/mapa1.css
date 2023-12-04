@@ -35,7 +35,7 @@ footer{
 .voltar{
     display: flex;
     position: absolute;
-    top: 1;
+    top: 1.5rem;
     left: 1rem;
     width: 6rem;
     height: 6rem;
