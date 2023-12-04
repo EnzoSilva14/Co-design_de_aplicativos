@@ -10,7 +10,7 @@ header{
     font-size: 5rem;
     border: solid #000000 .5rem;
     border-width: 0rem 0rem .5rem 0rem;
-    background-color: #FAF67D;
+    background-color: #91b6fa;
 }
 
 .mapa{
@@ -29,7 +29,7 @@ footer{
     padding: 5rem;
     border: solid black 1rem;
     border-width: .5rem 0rem 0rem 0rem;
-    background-color: #FAF67D;
+    background-color: #91b6fa;
 }
 
 .voltar{
@@ -39,7 +39,7 @@ footer{
     left: 1rem;
     width: 6rem;
     height: 6rem;
-    background-color: #FAF67D;
+    background-color: #91b6fa;
 }
 
 .pino1{
