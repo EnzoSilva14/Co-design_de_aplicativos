@@ -11,9 +11,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (txt !== '') {
 
-            main.createElement('div');
+            section = document.createElement('section');
+            section.classList.add('botao3');
+            main.appendChild(section);
+            h3 = document.createElement('h3');
+            h3.classList.add('texto3');
+            h3.textContent = txt;
+            section.appendChild(h3);
+            input.value = '';
         }
 
     });
+
 
 });
