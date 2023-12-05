@@ -79,8 +79,25 @@ header{
     margin: 4rem;
     width: 45rem;
     height: 8rem;
-    font-size: 2.5rem;
-    
+    font-size: 2.5rem;   
+}
+
+.botao35{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 3rem;
+    font-size: 3rem;
+    padding: 1rem 2rem;
+    background-color: rgb(177, 177, 177);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin: 4rem;
+    width: 45rem;
+    height: auto;
+    font-size: 2.5rem;   
 }
 
 .botao4{
@@ -166,7 +183,7 @@ footer{
 main{
     padding: 1.5rem;
     background-color: aqua;
-    height: 100rem;
+    height: 200rem;
 }
 
 .centro{
