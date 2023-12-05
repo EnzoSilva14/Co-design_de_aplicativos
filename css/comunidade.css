@@ -98,7 +98,7 @@ header{
     cursor: pointer;
     margin: 4rem;
     width: 45rem;
-    height: 42rem;
+    height: 44rem;
 }
 
 .linha{
@@ -182,6 +182,17 @@ main{
     width: 20rem;
 }
 
+input{
+    align-self: center;
+    display: flex;
+    font-size: 2.5rem;
+    padding: .5rem;
+    border: solid black .15rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+
+}
+
 .textolimpo{
     text-decoration: none;
 }
@@ -207,4 +218,12 @@ p{
 h1{
     font-size: 6rem;
     font-family: 'Tilt Neon', sans-serif;
+}
+
+h3{
+    font-family: 'Vollkorn', serif;
+}
+
+h2{
+    font-family: 'Vollkorn', serif;
 }
