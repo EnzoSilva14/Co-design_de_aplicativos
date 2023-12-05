@@ -193,6 +193,24 @@ input{
 
 }
 
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 3rem
+    
+}
+
 .textolimpo{
     text-decoration: none;
 }
